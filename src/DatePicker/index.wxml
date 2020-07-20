@@ -1,0 +1,51 @@
+<view class='date-picker-block' style="z-index:{{zIndex}}" hidden="{{!show}}">
+    <view class='content fadeInUp'>
+        <view class='action-box'>
+            <view bindtap="handleCancel">取消</view>
+            <view>{{title}}</view>
+            <view bindtap="handleConfirm" style="color:{{confirmColor}}">确定</view>
+        </view>
+        <view class='title' wx:if="{{range}}">选择起始日期</view>
+        <picker-view  class='date-picker' indicator-class='date-picker-select' value="{{start.currentIndex}}" bindchange="handleStartChange">
+            <picker-view-column>
+                <view wx:for="{{start.years}}" wx:key="{{item}}" class='col-item' >{{item}}年</view>
+            </picker-view-column>
+            <picker-view-column>
+                <view wx:for="{{start.months}}" wx:key="{{item}}" class='col-item' >{{item}}月</view>
+            </picker-view-column>
+            <picker-view-column>
+                <view wx:for="{{start.days}}" wx:key="{{item}}" class='col-item' >{{item}}日</view>
+            </picker-view-column>
+            <block wx:if="{{showTime}}">
+                <picker-view-column>
+                    <view wx:for="{{start.hours}}" wx:key="{{item}}" class='col-item' >{{item}}时</view>
+                </picker-view-column>
+                <picker-view-column>
+                    <view wx:for="{{start.minutes}}" wx:key="{{item}}" class='col-item' >{{item}}分</view>
+                </picker-view-column>
+            </block>
+        </picker-view>
+        <block wx:if="{{range}}">
+            <view class='title'>选择截止日期</view>
+            <picker-view class='date-picker' indicator-class='date-picker-select' value="{{end.currentIndex}}" bindchange="handleEndChange">
+                <picker-view-column>
+                    <view wx:for="{{end.years}}" wx:key="{{item}}" class='col-item' >{{item}}年</view>
+                </picker-view-column>
+                <picker-view-column>
+                    <view wx:for="{{end.months}}" wx:key="{{item}}" class='col-item' >{{item}}月</view>
+                </picker-view-column>
+                <picker-view-column>
+                    <view wx:for="{{end.days}}" wx:key="{{item}}" class='col-item' >{{item}}日</view>
+                </picker-view-column>
+                <block wx:if="{{showTime}}">
+                    <picker-view-column>
+                        <view wx:for="{{end.hours}}" wx:key="{{item}}" class='col-item' >{{item}}时</view>
+                    </picker-view-column>
+                    <picker-view-column>
+                        <view wx:for="{{end.minutes}}" wx:key="{{item}}" class='col-item' >{{item}}分</view>
+                    </picker-view-column>
+                </block>
+            </picker-view>
+        </block>
+    </view>
+</view>

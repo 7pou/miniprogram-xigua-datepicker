@@ -1,1 +1,32 @@
-<comp></comp>
+<view class="date-block" bindtap="handleOpen_1">
+    <view class="label">选择日期</view>
+    <view class="value">{{date_1}}</view>
+</view>
+<view class="date-block" bindtap="handleOpen_2">
+    <view class="label">选择日期(带有时间)</view>
+    <view class="value">{{date_2}}</view>
+</view>
+
+<view class="date-block" bindtap="handleOpen_3">
+    <view class="label">选择日期区间</view>
+    <view class="value">{{date_3}}</view>
+</view>
+<view class="date-block" bindtap="handleOpen_4">
+    <view class="label">选择日期区间(带有时间)</view>
+    <view class="value">{{date_4}}</view>
+</view>
+<view class="date-block" bindtap="handleOpen_5">
+    <view class="label">选择日期(自定义标题)</view>
+    <view class="value">{{date_5}}</view>
+</view>
+
+<view class="date-block" bindtap="handleOpen_6">
+    <view class="label">选择日期(自定义确定按钮色)</view>
+    <view class="value">{{date_6}}</view>
+</view>
+<view class="date-block" bindtap="handleOpen_7">
+    <view class="label">选择日期(自定义确定Hook)</view>
+    <view class="value">{{date_7}}</view>
+</view>
+
+<DatePicker id="date" />

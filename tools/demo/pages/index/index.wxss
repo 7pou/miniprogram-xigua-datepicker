@@ -1,0 +1,16 @@
+.container {
+    background-color: #f8f8f8;
+}
+
+.date-block {
+    background-color: #fff;
+    margin-bottom: 20rpx;
+    padding: 20rpx;
+    box-sizing: border-box;
+}
+
+.date-block .value {
+    border: 1rpx solid #eee;
+    height: 66rpx;
+    line-height: 66rpx;
+}

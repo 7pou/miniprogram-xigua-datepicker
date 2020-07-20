@@ -12,7 +12,7 @@ const dev = path.join(demoDist, 'components')
 const dist = path.resolve(__dirname, '../miniprogram_dist')
 
 module.exports = {
-  entry: ['index', 'lib'],
+  entry: ['DatePicker/index'],
 
   isDev,
   isWatch,
@@ -85,7 +85,7 @@ module.exports = {
     optimization: {
       minimize: false,
     },
-    devtool: 'source-map', // 生成 js sourcemap
+    // devtool: 'source-map', // 生成 js sourcemap
     performance: {
       hints: 'warning',
       assetFilter: assetFilename => assetFilename.endsWith('.js')

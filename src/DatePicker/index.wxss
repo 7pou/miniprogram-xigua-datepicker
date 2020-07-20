@@ -1,0 +1,62 @@
+.date-picker-block{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+.date-picker-block .content{
+  background-color: #fff;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+}
+
+.title{
+  background-color: #f8f8f8;
+  padding: 12rpx 0;
+  padding-left: 20rpx;
+  font-size: 28rpx;
+}
+.action-box{
+  display: flex;
+  padding: 20rpx; 
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+.date-picker{
+  width: 100%;
+  height: 240rpx;
+  color: #000;
+}
+.date-picker-select{
+  color: #333;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+.col-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@keyframes fadeInUp {
+  from {
+      opacity: 0;
+      transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+      opacity: 1;
+      transform: none;
+  }
+}
+
+.fadeInUp {
+  animation-duration: 0.2s;
+  animation-fill-mode: both;
+  animation-name: fadeInUp;
+}
