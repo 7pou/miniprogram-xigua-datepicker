@@ -1,6 +1,6 @@
 {
   "name": "miniprogram-xigua-datepicker",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "miniprogram datepicker",
   "main": "miniprogram_dist/index.js",
   "scripts": {
@@ -66,5 +66,10 @@
     "webpack": "^4.29.5",
     "webpack-node-externals": "^1.7.2"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "keywords": [
+    "miniprogram",
+    "datepicker",
+    "日期选择器"
+  ]
 }
