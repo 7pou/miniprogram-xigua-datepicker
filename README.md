@@ -47,15 +47,15 @@ this.selectComponent('#datepicker').open({
 
 ## 参数说明
 
-| 参数  | 类型  | 是否必填 | 默认值 | 说明 |
-| :------------ | :------------ | :------------ | :------------ |
-|  value |  string 或者 string []  | 否 | 空 | 初始值 |
-|  title |  string  | 否 | 选择日期 | 选择器标题 |
-|  confirmColor |  string |  否 |#e74845 | 确认按钮颜色 |
-|  range |  boolean  | 否 | true | 是否是日期区间 |
-|  showTime |  boolean  | 否 | true | 是否显示时间 |
-|  zIndex |  number  | 否 | 1 | 组件层级 |
-|  beforeHook |  function  | 否 | ()=>true | 点击确定的校验方法,需要返回布尔值 |
-|  onChange |  function  | 是 | null | 点击确定的回调函数 |
-|  onCancel |  function  | 否 | null | 点击取消的回调函数 |
-|  onScroll |  function  | 否 | null | 滚动的回调函数 |
+ 参数  | 类型  | 是否必填 | 默认值 | 说明 
+ :------------ | :------------ | :------------ | :------------ 
+  value |  string 或者 string []  | 否 | 空 | 初始值 
+  title |  string  | 否 | 选择日期 | 选择器标题 |
+  confirmColor |  string |  否 |#e74845 | 确认按钮颜色 
+  range |  boolean  | 否 | true | 是否是日期区间 
+  showTime |  boolean  | 否 | true | 是否显示时间 
+  zIndex |  number  | 否 | 1 | 组件层级 
+  beforeHook |  function  | 否 | ()=>true | 点击确定的校验方法,需要返回布尔值 
+  onChange |  function  | 是 | null | 点击确定的回调函数 
+  onCancel |  function  | 否 | null | 点击取消的回调函数 
+  onScroll |  function  | 否 | null | 滚动的回调函数 
