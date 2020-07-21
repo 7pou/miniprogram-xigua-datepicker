@@ -14,3 +14,11 @@ docs
 miniprogram_dev
 node_modules
 coverage
+
+
+.babelrc
+.eslintrc.js
+.gitignore
+gulpfile.js
+LICENSE
+tsconfig.json
