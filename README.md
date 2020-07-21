@@ -1,10 +1,10 @@
 # miniprogram-xigua-datepicker
 
-[![](https://img.shields.io/npm/v/weui-miniprogram.svg?style=flat-square)](https://www.npmjs.com/package/miniprogram-xigua-datepicker)
-[![](https://img.shields.io/npm/dw/weui-miniprogram?style=flat-square)](https://www.npmjs.com/package/miniprogram-xigua-datepicker)
-[![](https://img.shields.io/travis/wechat-miniprogram/weui-miniprogram.svg?style=flat-square)](https://github.com/wechat-miniprogram/miniprogram-xigua-datepicker)
-[![](https://img.shields.io/github/license/wechat-miniprogram/weui-miniprogram.svg?style=flat-square)](https://github.com/wechat-miniprogram/miniprogram-xigua-datepicker)
-[![](https://img.shields.io/codecov/c/github/wechat-miniprogram/weui-miniprogram.svg?style=flat-square)](https://github.com/wechat-miniprogram/miniprogram-xigua-datepicker)
+[![](https://img.shields.io/npm/v/miniprogram-xigua-datepicker.svg?style=flat-square)](https://www.npmjs.com/package/miniprogram-xigua-datepicker)
+[![](https://img.shields.io/npm/dw/miniprogram-xigua-datepicker?style=flat-square)](https://www.npmjs.com/package/miniprogram-xigua-datepicker)
+[![](https://img.shields.io/travis/7pou/miniprogram-xigua-datepicker.svg?style=flat-square)](https://github.com/7pou/miniprogram-xigua-datepicker)
+[![](https://img.shields.io/github/license/7pou/miniprogram-xigua-datepicker.svg?style=flat-square)](https://github.com/7pou/miniprogram-xigua-datepicker)
+[![](https://img.shields.io/codecov/c/github/7pou/miniprogram-xigua-datepicker.svg?style=flat-square)](https://github.com/7pou/miniprogram-xigua-datepicker)
 
 小程序自定义组件-日期选择器：
 
